@@ -1,34 +1,168 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>UX/UI Дизайн и Full Stack Разработка</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Alina Vdovichenko</title>
+    
 </head>
 <body>
-    <header>
-        <img src="winter-scene.jpg" alt="Зимний пейзаж">
-        <div class="intro">
-            <img src="profile.jpg" alt="Фото Алины">
-            <h1>Привет!</h1>
-            <p>Меня зовут Алина, занимаюсь разработкой сайтов и клиентских приложений...</p>
+
+  <!-- Header -->
+  <header class="header" id="header">
+		<div class="container">
+			<div class="header__inner">
+				<div class="header__logo">
+					<a class="logo__link" href="#">
+						<img class="logo__icon" src="img/logo.png" alt="icon-logo">
+					</a>
+				</div>
+				<nav class="nav" id="nav">
+					<a class="nav__link" href="#" data-hover="Главная">Главная</a>
+					<a class="nav__link" href="#" data-hover="Дизайн">Дизайн</a>
+					<a class="nav__link" href="#" data-hover="Разработка">Разработка</a>
+					<a class="nav__link" href="#" data-hover="Рефакторинг">Рефакторинг</a>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+  <!-- Intro -->
+  <div class="intro">
+    <div class="container">
+      <div class="intro__content">
+        <div class="intro__photo">
+          <img class="photo__winter" src="img/intro-ptoto.png" alt="Фото Алины">
         </div>
-    </header>
-    <section class="skills">
-        <div class="skill">
-            <img src="spring-scene.jpg" alt="Весенний пейзаж">
-            <h2>JavaScript</h2>
-            <p>Профессиональная разработка интерактивных приложений.</p>
+        <div class="content__text">
+          <h1 class="text1">UX/UI дизайн</h1>
+          <h2 class="text2">Full Stack</h2>
+          <h3 class="text3">разработка</h3>
         </div>
-        <div class="skill">
-            <img src="summer-scene.jpg" alt="Летний пейзаж">
-            <h2>JavaScript</h2>
-            <p>Продвинутые техники разработки веб-интерфейсов.</p>
+        <div class="content__signature">
+          <h3 class="text4">Alina Vdovichenko</h3>
         </div>
-    </section>
-    <footer>
-        <img src="autumn-scene.jpg" alt="Осенний пейзаж">
-        <p>Контакты: info@example.com</p>
-    </footer>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Section -->
+   <section class="section">
+    <div class="container">
+      <div class="section__inner">
+        <div class="section__title">
+          <h2 class="section__title-text1">Привет!</h2>
+          <h3 class="section__title-text2">Меня зовут Алина, я занимаюсь <br>
+            разработкой сайтов и клиентских приложений...</h3>
+          <img class="section__title-photo1" src="img/vector1.svg" alt="Вектор1">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <div class="certificates">
+    <div class="container">
+      <div class="certificates__blog">
+        <div class="blog__items">
+          <div class="blog__item">
+            <a class="blog__item-link" href="https://assets.htmlacademy.ru/certificates/intensive/561/1837789.pdf?1700749233" target="_blank">
+              <div class="blog__item-images">
+                <img class="blog__item-img" src="img/blog-item1.jpg" alt="Фото сертификата">
+                <img class="blog__item-window" src="img/blog-item.png" alt="Фото сертификата">
+              </div>
+            </a>
+            <div class="blog__item-text">
+              <h3 class="blog__item-text1">JavaScript.</h3>
+              <h4 class="blog__item-text2">Профессиональная разработка веб-интерфейсов.</h4>
+              <a class="repository-link" href="https://github.com/alinavdovichenko/1837789-kekstagram-30" title="Смотреть проект">
+                Личный проект «Кекстаграм».
+              </a>
+            </div>
+          </div>
+          <div class="blog__item">
+            <a class="blog__item-link" href="https://assets.htmlacademy.ru/certificates/intensive/567/1837789.pdf?1707042381" target="_blank">
+              <div class="blog__item-images">
+                <img class="blog__item-img" src="img/blog-item2.jpg" alt="Фото сертификата">
+                <img class="blog__item-window" src="img/blog-item.png" alt="Фото сертификата">
+              </div>
+            </a>
+            <div class="blog__item-text">
+              <h3 class="blog__item-text1">JavaScript.</h3>
+              <h4 class="blog__item-text2">JavaScript. Архитектура клиентских приложений.</h4>
+              <a class="repository-link" href="https://github.com/alinavdovichenko/1837789-big-trip-22" title="Смотреть проект">
+                Проект «Большое путешествие».
+              </a>
+            </div>
+          </div>
+          <div class="blog__item">
+            <a class="blog__item-link" href="https://assets.htmlacademy.ru/certificates/intensive/571/1837789.pdf?1712929868" target="_blank">
+              <div class="blog__item-images">
+                <img class="blog__item-img" src="img/blog-item3.jpg" alt="Фото сертификата">
+                <img class="blog__item-window" src="img/blog-item.png" alt="Фото сертификата">
+              </div>
+            </a>
+            <div class="blog__item-text">
+              <h3 class="blog__item-text1">React.</h3>
+              <h4 class="blog__item-text2">Разработка сложных клиентских приложений</h4>
+              <a class="repository-link" href="https://github.com/alinavdovichenko/1837789-six-cities-15" title="Смотреть проект">
+                Проект «Шесть городов».
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="blog__items">
+          <div class="blog__item">
+            <a class="blog__item-link" href="https://assets.htmlacademy.ru/certificates/intensive/645/1837789.pdf?1718801911" target="_blank">
+              <div class="blog__item-images">
+                <img class="blog__item-img" src="img/blog-item4.jpg" alt="Фото сертификата">
+                <img class="blog__item-window" src="img/blog-item.png" alt="Фото сертификата">
+              </div>
+            </a>
+            <div class="blog__item-text">
+              <h3 class="blog__item-text1">Node.js.</h3>
+              <h4 class="blog__item-text2">Профессиональная разработка REST API</h4>
+              <a class="repository-link" href="https://github.com/alinavdovichenko/1837789-six-cities-7" title="Смотреть проект">
+                Проект «Шесть городов».
+              </a>
+            </div>
+          </div>
+          <div class="blog__item">
+            <a class="blog__item-link" href="https://assets.htmlacademy.ru/certificates/intensive/647/1837789.pdf?1724415513s" target="_blank">
+              <div class="blog__item-images">
+                <img class="blog__item-img" src="img/blog-item5.jpg" alt="Фото сертификата">
+                <img class="blog__item-window" src="img/blog-item.png" alt="Фото сертификата">
+              </div>
+            </a>
+            <div class="blog__item-text">
+              <h3 class="blog__item-text1">Node.js и Nest.js.</h3>
+              <h4 class="blog__item-text2">Микросервисная архитектура</h4>
+              <a class="repository-link" href="https://github.com/alinavdovichenko/1837789-readme-7" title="Смотреть проект">
+                Личный проект «Readme».
+              </a>
+            </div>
+          </div>
+          <div class="blog__item">
+            <a class="blog__item-link" href="https://htmlacademy.ru/profile/id1837789/certificates" target="_blank">
+              <div class="blog__item-images">
+                <img class="blog__item-img" src="img/blog-item5.jpg" alt="Фото сертификата">
+                <img class="blog__item-window" src="img/blog-item.png" alt="Фото сертификата">
+              </div>
+            </a>
+            <div class="blog__item-text">
+              <h3 class="blog__item-text1">JavaScript.</h3>
+              <h4 class="blog__item-text2">Профессиональная разработка веб-интерфейсов.</h4>
+              <a class="repository-link" href="https://github.com/alinavdovichenko/1837789-kekstagram-30" title="Смотреть проект">
+                Личный проект «Кекстаграм»
+              </a>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
 </body>
 </html>
